@@ -3,7 +3,7 @@ Periodically checks a Novel Updates reading list for changes and pushes notifica
 
 ## Setup
 
-Requires Python 3, an account on Pushover with at least one licensed device. Start by creating an account on [Pushover](https://pushover.net/), registering a device, then [registering an application](https://pushover.net/apps/build), and the [RSS feed for your reading list](#rss-link).
+Requires Python 3 and an account on Pushover with at least one licensed device. Start by creating an account on [Pushover](https://pushover.net/), registering a device, then [registering an application](https://pushover.net/apps/build). Also, get the [RSS feed for your reading list](#rss-link).
 
 Clone this repository:
 ```console
