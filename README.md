@@ -3,7 +3,7 @@ Periodically checks a Novel Updates reading list for changes and pushes notifica
 
 ## Setup
 
-Requires Python 3, an account on Pushover with at least one licensed device. Start by creating an account on [Pushover](https://pushover.net/), registering a device, then [registering an application](https://pushover.net/apps/build), and the RSS feed for your reading list.
+Requires Python 3, an account on Pushover with at least one licensed device. Start by creating an account on [Pushover](https://pushover.net/), registering a device, then [registering an application](https://pushover.net/apps/build), and the [RSS feed for your reading list](#rss-link).
 
 Clone this repository:
 ```console
@@ -49,3 +49,14 @@ pm2 start
 ```
 
 and it should run in the background, self-restarting on failure.
+
+## RSS Link
+
+To get your reading list in RSS feed form, click the purple icon above your list next to "List Settings":
+
+![image](https://user-images.githubusercontent.com/16915320/174507015-a811a2e2-fbfe-4aeb-a139-f44df4fc2309.png)
+
+And copy the URL that it sends you to:
+
+![image](https://user-images.githubusercontent.com/16915320/174507057-1292cae6-b3b5-4128-a3b0-b714156a64ca.png)
+
