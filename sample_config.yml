@@ -1,0 +1,4 @@
+list_url: "NOVELUPDATES_READING_LIST_RSS_HERE"
+api_key: "PUSHOVER_API_KEY_HERE"
+user_key: "PUSHOVER_USER_KEY_HERE"
+check_interval: 30
