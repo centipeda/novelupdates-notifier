@@ -4,6 +4,7 @@ import shelve
 import logging
 import requests
 import json
+import os
 from http.client import responses
 from threading import Timer
 
@@ -123,7 +124,10 @@ def dispatch(config_data):
     t.start()
 
 def main():
-    config_data = validate_config(CONFIG_FILE)
+    if 'CONFIG_FILE' in os.environ:
+        config_data = validate_config(os.environ['CONFIG_FILE'])
+    else:
+        config_data = validate_config(CONFIG_FILE)
     dispatch(config_data)
 
 if __name__ == "__main__":
